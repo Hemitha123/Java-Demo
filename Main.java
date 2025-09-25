@@ -4,7 +4,8 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
         int b = sc.nextInt();
-        int Sum = a + b;
-        System.out.println("Sum is: " + Sum);
+        int c = sc.nextInt();
+        int average = (a + b)/c;
+        System.out.println(average);
     }
 }
